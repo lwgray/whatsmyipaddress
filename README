@@ -1,1 +1,14 @@
 Simple python script to monitor External IP address of Dev Server and send direct message tweet if it changes
+
+To use script, please  add Twitter credentials as environment variables
+1. twitter_consumer_key
+2. twitter_consumer_secret
+3. twitter_access_token_key
+4. twitter_access_token_secret
+5. twitter_screen_name
+
+Improvements needed:
+Enable cron jobs to check for IP changes every 30 minutes
+Enable cron job to start up upon restart
+
+Usage: python whatsmyipaddress.py
